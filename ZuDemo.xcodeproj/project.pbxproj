@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079FC5E7E49F8BCD7FFCD6A8 /* libPods-ZuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8581F36EE39D1F61301584B6 /* libPods-ZuDemo.a */; };
 		D4197A732251DFD600647387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4197A722251DFD600647387 /* AppDelegate.m */; };
 		D4197A762251DFD600647387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4197A752251DFD600647387 /* ViewController.m */; };
 		D4197A792251DFD600647387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4197A772251DFD600647387 /* Main.storyboard */; };
@@ -35,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3C502254C5BD8112A4FD6B /* Pods-ZuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZuDemo/Pods-ZuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3E894E2F9E073C2F3904BB5A /* libPods-ZuDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0C5050949F51D6DD8FF815 /* libPods-ZuDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8581F36EE39D1F61301584B6 /* libPods-ZuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB22FEDCE609CF6E4601EA9 /* Pods-ZuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZuDemo/Pods-ZuDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D4197A6E2251DFD600647387 /* ZuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4197A712251DFD600647387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4197A722251DFD600647387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079FC5E7E49F8BCD7FFCD6A8 /* libPods-ZuDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD52BE6AEA5437C8699C2217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8581F36EE39D1F61301584B6 /* libPods-ZuDemo.a */,
+				7C0C5050949F51D6DD8FF815 /* libPods-ZuDemoTests.a */,
+				3E894E2F9E073C2F3904BB5A /* libPods-ZuDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4197A652251DFD600647387 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				D4197A892251DFD700647387 /* ZuDemoTests */,
 				D4197A942251DFD700647387 /* ZuDemoUITests */,
 				D4197A6F2251DFD600647387 /* Products */,
+				ECF7B69331521699CA24235B /* Pods */,
+				CD52BE6AEA5437C8699C2217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +151,15 @@
 			path = ZuDemoUITests;
 			sourceTree = "<group>";
 		};
+		ECF7B69331521699CA24235B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB22FEDCE609CF6E4601EA9 /* Pods-ZuDemo.debug.xcconfig */,
+				0B3C502254C5BD8112A4FD6B /* Pods-ZuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4197A9A2251DFD700647387 /* Build configuration list for PBXNativeTarget "ZuDemo" */;
 			buildPhases = (
+				425EA14B4A838EDB97E83BC6 /* [CP] Check Pods Manifest.lock */,
 				D4197A6A2251DFD600647387 /* Sources */,
 				D4197A6B2251DFD600647387 /* Frameworks */,
 				D4197A6C2251DFD600647387 /* Resources */,
@@ -256,6 +285,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		425EA14B4A838EDB97E83BC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZuDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4197A6A2251DFD600647387 /* Sources */ = {
@@ -433,6 +487,7 @@
 		};
 		D4197A9B2251DFD700647387 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB22FEDCE609CF6E4601EA9 /* Pods-ZuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +504,7 @@
 		};
 		D4197A9C2251DFD700647387 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3C502254C5BD8112A4FD6B /* Pods-ZuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

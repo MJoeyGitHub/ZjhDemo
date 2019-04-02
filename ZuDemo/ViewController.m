@@ -7,16 +7,21 @@
 //
 
 #import "ViewController.h"
+#import <hahaha.h>
 
 @interface ViewController ()
-
+@property (nonatomic, strong) hahaha *haha;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    self.haha.ii = @"233232";
+    
+    [self.haha liliilio];
+    
+    NSLog(@"%@", self.haha.ii);
 }
 
 

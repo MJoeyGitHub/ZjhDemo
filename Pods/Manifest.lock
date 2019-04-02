@@ -1,0 +1,16 @@
+PODS:
+  - JoeyQQQ (0.1.0)
+
+DEPENDENCIES:
+  - JoeyQQQ (from `libb/JoeyQQQ`)
+
+EXTERNAL SOURCES:
+  JoeyQQQ:
+    :path: libb/JoeyQQQ
+
+SPEC CHECKSUMS:
+  JoeyQQQ: 099efebbd55be6e5535f363722e86e1d333fa413
+
+PODFILE CHECKSUM: fe0d76423284b1fa6e42e2fcdc038f1ca0fb7371
+
+COCOAPODS: 1.5.3
